@@ -1,10 +1,13 @@
-1. flashing
-	1. flash the arduino 1 with first program
-	2. flast the 2nd arduino with second program
-2. operation
-	1. connect the 2nd arduino to the pc/laptop
-	2. open p5 serial control program
-	3. connect to arduino serial pin
-	4. open p5.js web editor (https://editor.p5js.org/1999AZZAR/sketches/Te50F4Q3-)
-	5. edit the serial port in p5.js web editor so it's now same with in p5 serial control
-	6. run the p5.js web editor
+<h2>1. flashing</h2>
+<ol>
+	<li>flash the arduino 1 with first program</li>
+	<li>flast the 2nd arduino with second program</li>
+	</ol>
+<h2>2. using it</h2>
+<ol>
+	<li>connect the 2nd arduino to the pc/laptop</li>
+	<li>open <a href="https://github.com/p5-serial/p5.serialcontrol/releases" target="_blank">p5 serial control program</a></li>
+	<li>connect to arduino serial pin</li>
+	<li>open <a href="https://editor.p5js.org/1999AZZAR/sketches/Te50F4Q3-" target="_blank">p5.js web editor</a></li>
+	<li>edit the serial port in p5.js web editor so it's now same with in p5 serial control</li>
+	<li>run the p5.js web editor</li>
