@@ -1,9 +1,3 @@
-
-
-
-
-This project is just one of many examples of how we can apply the use of [google theachable machine](https://teachablemachine.withgoogle.com/)
-
 ## how to use this project
 
 ### 1. flashing
@@ -26,3 +20,4 @@ This project is just one of many examples of how we can apply the use of [google
 
 - run the p5.js web editor
 
+#### This project is just one of many examples of how we can apply the use of [google theachable machine](https://teachablemachine.withgoogle.com/)
