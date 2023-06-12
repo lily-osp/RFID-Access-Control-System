@@ -69,3 +69,53 @@ This code uses an Arduino board, an RFID reader (MFRC522), and several component
 6. open [p5.js web editor](https://editor.p5js.org/1999AZZAR/sketches/Te50F4Q3-)
 7. edit the serial port in p5.js web editor so it's now same with in p5 serial control
 8. run the p5.js web editor
+
+## Flowchart 
+
+```mermaid
+graph TD
+subgraph device 1
+A1[Start Device 1] --> B1[Setup Device 1]
+B1 --> C1{New Card?}
+C1 -- No --> B1
+C1 -- Yes --> D1{Read Card}
+D1 -- Success --> E1[Print UID]
+E1 --> F1[Check Access]
+F1 -- Allowed --> G1[Access Granted]
+G1 --> H1{Continue?}
+H1 -- Yes --> C1
+H1 -- No --> I1[End Device 1]
+F1 -- Denied --> J1[Access Denied]
+J1 --> H1
+G1 --> K1[Set incontrol val]
+J1 --> K1
+end
+subgraph device 2
+A2[Start Device 2] --> B2[Setup Device 2]
+B2 --> C2{Serial Available?}
+C2 -- No --> G2[Delay]
+C2 -- Yes --> D2[Read Serial]
+D2 --> E2{Result}
+E2 -- '1' --> F2{incontrol == HIGH?}
+F2 -- Yes --> K2[Access Granted]
+K2 --> G2[Delay]
+F2 -- No --> L[Access Denied]
+L --> G2[Delay]
+E2 -- '2' --> H2{incontrol == HIGH?}
+H2 -- Yes --> I2[Access Denied]
+I2 --> G2[Delay]
+H2 -- No --> J2[Access Denied]
+J2 --> G2[Delay]
+E2 -- '3' --> M{incontrol == HIGH?}
+M -- Yes --> N[Access Denied]
+N --> G2[Delay]
+M -- No --> O[Access Denied]
+O --> G2[Delay]
+G2 --> C2
+G2 --> P[End Device 2]
+
+K1 --> F2
+K1 --> H2
+K1 --> M
+end
+```
