@@ -44,3 +44,21 @@ This code uses an Arduino board and an RFID reader (MFRC522) to control access t
 - You can add more RFID tags by adding more `else if` statements in the code and comparing their UIDs with the tag being read.
 - The delay times for access granted and denied can be adjusted to your desired duration.
 - The serial monitor is used only for debugging purposes and can be removed for final implementation.
+
+## Flowchart 
+
+```mermaid
+graph LR
+A[Start] --> B[Setup]
+B --> C{New Card?}
+C -- No --> B
+C -- Yes --> D{Read Card}
+D -- Success --> E[Print UID]
+E --> F[Check Access]
+F -- Allowed --> G[Access Granted]
+G --> H{Continue?}
+H -- Yes --> C
+H -- No --> I[End]
+F -- Denied --> J[Access Denied]
+J --> H
+```
