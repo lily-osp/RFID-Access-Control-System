@@ -38,3 +38,32 @@ This code uses an Arduino board and several components (LEDs, a relay, and an in
 ## Note 
 - The delay times for access granted and denied can be adjusted to your desired duration.
 - The input switch can be replaced by any other input device that can be connected to the arduino like a button, a RFID reader, or a PIR sensor
+
+## Flowchart 
+
+```mermaid
+graph LR
+A[Start] --> B[Setup]
+B --> C{Serial Available?}
+C -- No --> G[Delay]
+C -- Yes --> D[Read Serial]
+D --> E{Result}
+E -- '1' --> F{incontrol == HIGH?}
+F -- Yes --> K[Access Granted]
+K --> G[Delay]
+F -- No --> L[Access Denied]
+L --> G[Delay]
+E -- '2' --> H{incontrol == HIGH?}
+H -- Yes --> I[Access Denied]
+I --> G[Delay]
+H -- No --> J[Access Denied]
+J --> G[Delay]
+E -- '3' --> M{incontrol == HIGH?}
+M -- Yes --> N[Access Denied]
+N --> G[Delay]
+M -- No --> O[Access Denied]
+O --> G[Delay]
+G --> C
+G --> P[End]
+```
+
