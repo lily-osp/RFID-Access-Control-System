@@ -125,3 +125,73 @@ K1 --> H2
 K1 --> M
 end
 ```
+
+## Gallery
+
+<!DOCTYPE html>
+<html>
+<!-- Image Grid Gallery -->
+<div class="grid-gallery" style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 5px; justify-items: center;">
+
+<!-- Image 1 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide1.jpg" alt="Image 1" style="height: 300px;">
+</div>
+
+<!-- Image 2 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide2.jpg" alt="Image 2" style="height: 300px;">
+</div>
+
+<!-- Image 3 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide3.jpg" alt="Image 3" style="height: 300px;">
+</div>
+
+<!-- Image 4 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide4.jpg" alt="Image 4" style="height: 300px;">
+</div>
+
+<!-- Image 5 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide5.jpg" alt="Image 5" style="height: 300px;">
+</div>
+
+<!-- Image 6 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide6.jpg" alt="Image 6" style="height: 300px;">
+</div>
+
+<!-- Image 7 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide7.jpg" alt="Image 7" style="height: 300px;">
+</div>
+
+<!-- Image 8 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide8.jpg" alt="Image 8" style="height: 300px;">
+</div>
+
+<!-- Image 9 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide9.jpg" alt="Image 9" style="height: 300px;">
+</div>
+
+<!-- Image 10 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide10.jpeg" alt="Image 10" style="height: 300px;">
+</div>
+
+<!-- Image 11 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide11.jpeg" alt="Image 11" style="height: 300px;">
+</div>
+
+<!-- Image 12 -->
+<div>
+  <img src="https://github.com/1999AZZAR/RFID-Access-Control-System/raw/master/pic/Slide12.jpeg" alt="Image 12" style="height: 300px;">
+</div>
+
+</div>
+</html>
