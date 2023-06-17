@@ -2,6 +2,9 @@
 
 This code uses an Arduino board, an RFID reader (MFRC522), and several components (LEDs, a relay, and an input switch) to control access to a certain area or device. The code reads the unique ID of an RFID tag and compares it to a pre-authorized tag. If the ID matches, access is granted and a green LED lights up, the relay turns on and the blue LED turns on. If the ID does not match, access is denied and the green LED remains off, the relay remains off and the blue LED remains off. Additionally, the code also reads the state of an input switch. If the switch is high, access is granted and the LEDs and relay will turn on. If the switch is low, access is denied and the LEDs and relay will remain off. The access control can be triggered by sending commands through the serial monitor.
 
+translation:
+- [indonesian](https://github.com/1999AZZAR/RFID-Access-Control-System/blob/master/readme_id.md)
+
 ## Hardware
 
 - Arduino board (e.g. Uno, Mega, Nano)
