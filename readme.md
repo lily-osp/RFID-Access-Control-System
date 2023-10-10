@@ -66,6 +66,17 @@ translation:
 - The delay times for access granted and denied can be adjusted to your desired duration.
 - The input switch can be replaced by any other input device that can be connected to the arduino like a button, a RFID reader, or a PIR sensor
 
+## Support
+
+You can support me by buy me a coffee if u like to.
+
+<div align="left">
+<!--   <h4>And you can also support me by <a href="https://www.buymeacoffee.com/azzar" target="_blank">buying me coffee</a></h4> -->
+  <a href="https://www.buymeacoffee.com/azzar" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 151.9px !important; margin-top: 50px !important;">
+  </a>
+</div>
+
 ## Additional use case
 
 This project is just one of many examples of how we can apply the use of [google theachable machine](https://teachablemachine.withgoogle.com/). To use the project you can:
